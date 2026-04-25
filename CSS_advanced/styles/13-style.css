@@ -47,21 +47,24 @@ body {
 }
 
 /* LINKS */
-a[href] {
+a {
   color: var(--text-color);
   text-decoration: none;
 }
 
-a[href]:visited {
+/* visited */
+a:visited {
   font-style: italic;
 }
 
-a[href]:hover {
+/* hover */
+a:hover {
   text-decoration: underline;
 }
 
-a[href]:active {
-  background-color: var(--color-light-grey);
+/* active */
+a:active {
+  background: var(--color-light-grey);
 }
 
 /* SECTION HEADER */
