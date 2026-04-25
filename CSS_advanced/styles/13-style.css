@@ -28,7 +28,10 @@
 
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
+
+  /* IMPORTANT */
   --section-header-align: center;
+
   --section-tagline-transform: uppercase;
 }
 
@@ -52,19 +55,17 @@ a {
   text-decoration: none;
 }
 
-/* hover */
 a:hover {
   text-decoration: underline;
 }
 
-/* active */
 a:active {
   background-color: var(--color-light-grey);
 }
 
-/* SECTION HEADER */
+/* SECTION HEADER (MÜTLƏQ VAR-dan istifadə edir) */
 .section-header {
-  text-align: center;
+  text-align: var(--section-header-align);
 }
 
 /* SECTION TITLE */
