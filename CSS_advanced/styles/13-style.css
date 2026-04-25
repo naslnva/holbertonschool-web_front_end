@@ -52,11 +52,6 @@ a {
   text-decoration: none;
 }
 
-/* visited */
-a:visited {
-  font-style: italic;
-}
-
 /* hover */
 a:hover {
   text-decoration: underline;
@@ -64,12 +59,12 @@ a:hover {
 
 /* active */
 a:active {
-  background: var(--color-light-grey);
+  background-color: var(--color-light-grey);
 }
 
 /* SECTION HEADER */
 .section-header {
-  text-align: var(--section-header-align);
+  text-align: center;
 }
 
 /* SECTION TITLE */
